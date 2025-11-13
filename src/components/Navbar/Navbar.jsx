@@ -5,7 +5,7 @@ const Navbar = () => {
         <div>
             <div className="navbar bg-base-100 shadow-sm">
                 <div className="navbar-start">
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl text-[#00a2ff]">Auction<span className='text-[#cc00ff]'>Zone</span></a>
 
                 </div>
                 <div className="navbar-center flex gap-2">

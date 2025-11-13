@@ -1,0 +1,52 @@
+[
+    {
+      "id": "banner_1",
+      "title": "Premium Car Auctions",
+      "subtitle": "Bid on luxury vehicles from verified sellers",
+      "image_url": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1920&h=960&fit=crop&q=90",
+      "button_text": "Start Bidding",
+      "button_link": "/auctions",
+      "bg_color": "#1a1a2e",
+      "text_color": "#ffffff"
+    },
+    {
+      "id": "banner_2",
+      "title": "Live Auctions Daily",
+      "subtitle": "Join thousands of buyers competing for the best deals",
+      "image_url": "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=1920&h=960&fit=crop&q=90",
+      "button_text": "View Live Auctions",
+      "button_link": "/live",
+      "bg_color": "#0f3460",
+      "text_color": "#ffffff"
+    },
+    {
+      "id": "banner_3",
+      "title": "Sell Your Car Fast",
+      "subtitle": "Reach thousands of potential buyers in minutes",
+      "image_url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1920&h=960&fit=crop&q=90",
+      "button_text": "List Your Vehicle",
+      "button_link": "/sell",
+      "bg_color": "#e94560",
+      "text_color": "#ffffff"
+    },
+    {
+      "id": "banner_4",
+      "title": "Certified Pre-Owned",
+      "subtitle": "Inspected vehicles with warranty options available",
+      "image_url": "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?w=1920&h=960&fit=crop&q=90",
+      "button_text": "Browse Certified",
+      "button_link": "/certified",
+      "bg_color": "#16213e",
+      "text_color": "#ffffff"
+    },
+    {
+      "id": "banner_5",
+      "title": "Exotic & Classic Cars",
+      "subtitle": "Rare collectibles and vintage automobiles",
+      "image_url": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1920&h=600&fit=crop&q=90",
+      "button_text": "Explore Collection",
+      "button_link": "/exotic",
+      "bg_color": "#2d4059",
+      "text_color": "#ffffff"
+    }
+  ]

@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div>
-            <div className="navbar bg-base-100 shadow-sm">
+        <div className='w-full max-w-full mx-auto px-2 md:px-6 lg:px-8 xl:px-16 py-7'>
+            <div className="navbar bg-base-100">
                 <div className="navbar-start">
-                    <a className="btn btn-ghost text-xl text-[#00a2ff]">Auction<span className='text-[#cc00ff]'>Zone</span></a>
+                    <a className=" text-xl text-[#00a2ff]">Auction<span className='text-[#cc00ff]'>Zone</span></a>
 
                 </div>
                 <div className="navbar-center flex gap-2">

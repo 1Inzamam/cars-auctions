@@ -1,0 +1,93 @@
+[
+    {
+      "id": "car_001",
+      "title": "2020 BMW M4 Competition",
+      "description": "Twin-turbo inline-6, 503 HP, carbon fiber roof, M Sport exhaust, only 15K miles",
+      "currentBidPrice": 52500,
+      "timeLeft": "2 hours 15 minutes",
+      "bidsCount": 28,
+      "image": "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_002",
+      "title": "2019 Mercedes-AMG GT R",
+      "description": "4.0L V8 biturbo, 577 HP, AMG Track Pace, Burmester sound system, pristine condition",
+      "currentBidPrice": 89000,
+      "timeLeft": "5 hours 42 minutes",
+      "bidsCount": 42,
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_003",
+      "title": "2021 Porsche 911 Turbo S",
+      "description": "3.8L twin-turbo flat-6, 640 HP, Sport Chrono package, full leather interior, 8K miles",
+      "currentBidPrice": 145000,
+      "timeLeft": "1 hour 8 minutes",
+      "bidsCount": 67,
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_004",
+      "title": "2018 Audi R8 V10 Plus",
+      "description": "5.2L V10, 610 HP, magnetic ride suspension, carbon fiber trim, one owner vehicle",
+      "currentBidPrice": 98500,
+      "timeLeft": "3 hours 33 minutes",
+      "bidsCount": 35,
+      "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_005",
+      "title": "2022 Tesla Model S Plaid",
+      "description": "1,020 HP tri-motor, 0-60 in 1.99s, yoke steering, full self-driving, 12K miles",
+      "currentBidPrice": 87000,
+      "timeLeft": "6 hours 20 minutes",
+      "bidsCount": 51,
+      "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_006",
+      "title": "2019 Chevrolet Corvette Z06",
+      "description": "6.2L supercharged V8, 650 HP, carbon fiber aero package, 2LZ trim, track ready",
+      "currentBidPrice": 64500,
+      "timeLeft": "4 hours 55 minutes",
+      "bidsCount": 39,
+      "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_007",
+      "title": "2020 Lamborghini Huracan EVO",
+      "description": "5.2L V10, 631 HP, Lamborghini Dinamica Veicolo Integrata system, 9K miles",
+      "currentBidPrice": 189000,
+      "timeLeft": "7 hours 12 minutes",
+      "bidsCount": 74,
+      "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_008",
+      "title": "2021 Ford Mustang Shelby GT500",
+      "description": "5.2L supercharged V8, 760 HP, carbon fiber track pack, tremec 7-speed DCT",
+      "currentBidPrice": 78500,
+      "timeLeft": "2 hours 47 minutes",
+      "bidsCount": 44,
+      "image": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_009",
+      "title": "2020 Nissan GT-R Nismo",
+      "description": "3.8L twin-turbo V6, 600 HP, carbon ceramic brakes, Recaro seats, track edition",
+      "currentBidPrice": 142000,
+      "timeLeft": "5 hours 18 minutes",
+      "bidsCount": 59,
+      "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=800&h=600&fit=crop&q=85"
+    },
+    {
+      "id": "car_010",
+      "title": "2021 Aston Martin Vantage",
+      "description": "4.0L twin-turbo V8, 503 HP, sports plus pack, premium audio, 11K miles",
+      "currentBidPrice": 118000,
+      "timeLeft": "3 hours 9 minutes",
+      "bidsCount": 37,
+      "image": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=800&h=600&fit=crop&q=85"
+    }
+    
+  ]

@@ -35,7 +35,7 @@ const Banner = () => {
                     <div key={index}>
                         
                         
-                            <SwiperSlide><img className='h-[70vh] w-full' src={items.image_url} alt=""/></SwiperSlide>
+                            <SwiperSlide key={index}><img className='h-[70vh] w-full' src={items.image_url} alt=""/></SwiperSlide>
                         
                     </div>
                 ))

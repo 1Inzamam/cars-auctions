@@ -28,11 +28,11 @@ function App() {
         <p>Discover and bid on cars</p>
       </div>
 
-      <div className='flex gap-3 justify-between bg-blue-100 w-full max-w-full mx-auto px-2 md:px-6 lg:px-8 xl:px-16 py-7'>
-        <div className='left-container w-[70%]'>
+      <div className='flex flex-col lg:flex-row gap-3 justify-between bg-blue-100 w-full max-w-full mx-auto px-2 md:px-6 lg:px-8 xl:px-16 py-7'>
+        <div className='left-container w-full lg:w-[70%]'>
           <Auctions handleAddBidding={handleAddBidding}></Auctions>
         </div>
-        <div className='right-container text-center w-[30%] py-7 bg-blue-100'>
+        <div className='right-container text-center w-full lg:w-[30%] bg-blue-100'>
 
           <div className='bg-white rounded-3xl py-3'>
             <h1 className='text-3xl font-medium py-6'>Bidding Cars</h1>

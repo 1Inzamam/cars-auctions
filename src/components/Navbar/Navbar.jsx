@@ -2,19 +2,19 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='w-full max-w-full mx-auto px-2 md:px-6 lg:px-8 xl:px-16 py-7'>
-            <div className="navbar bg-base-100">
-                <div className="navbar-start">
+        <div className=' w-full max-w-full mx-auto px-2 md:px-6 lg:px-8 xl:px-16 py-3'>
+            <div className="md:navbar bg-base-100 flex-col md:flex-row text-center md:text-start">
+                <div className="md:navbar-start">
                     <a className=" text-xl text-[#00a2ff]">Auction<span className='text-[#cc00ff]'>Zone</span></a>
 
                 </div>
-                <div className="navbar-center flex gap-2">
+                <div className="md:navbar-center flex-col md:flex-row gap-2">
                     <button className='btn' >Home</button>
                     <button className='btn'>Auctions</button>
                     <button className='btn'>Categories</button>
                     <button className='btn'>How to work</button>
                 </div>
-                <div className="navbar-end">
+                <div className="md:navbar-end">
                     <button className="btn btn-ghost btn-circle">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /> </svg>
                     </button>

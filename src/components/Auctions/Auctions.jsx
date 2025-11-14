@@ -18,7 +18,6 @@ const Auctions = () => {
                     <table className="table w-full">
                         <thead className=''>
                             <tr>
-                                
                                 <th className='w-[45%]'>Items</th>
                                 <th className='w-[20%] text-center'>Current Bid</th>
                                 <th className='w-[20%] text-center'>Time Left</th>
@@ -33,15 +32,11 @@ const Auctions = () => {
                 }
             </tbody>
                     </table>
-
                 </div>
                 <div className='text-center w-[35%]'>
                     <h1>Favorite Items</h1>
                 </div>
             </div>
-
-            
-
         </div>
     );
 };

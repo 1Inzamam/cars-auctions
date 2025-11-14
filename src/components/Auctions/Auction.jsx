@@ -4,11 +4,7 @@ import { BiDollar } from "react-icons/bi";
 const Auction = ({items}) => {
     const {image,title, description, currentBidPrice, timeLeft} = items;
     return (
-       
-  
-   
       <tr>
-       
         <td className='w-[45%]'>
           <div className="flex items-center gap-3">
             <div className="avatar">
@@ -34,9 +30,6 @@ const Auction = ({items}) => {
           <button className="btn btn-ghost btn-xs"><BiDollar className='text-lg' /></button>
         </td>
       </tr>
-     
-    
-  
     );
 };
 

@@ -10,7 +10,7 @@ const Auctions = ({ handleAddBidding }) => {
     }, [])
 
     return (
-        <div className='w-full max-w-full mx-auto px-2 md:px-6 lg:px-8 xl:px-16 py-7 bg-blue-100'>
+        <div className='py-7'>
             
             <div className='flex gap-4'>
                 <div className=' '>

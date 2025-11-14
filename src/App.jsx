@@ -8,11 +8,14 @@ import './App.css'
 
 function App() {
   const [bidding, setBidding] = useState([]);
-  const [bidAmount, setBidAmount] =useState(0);
+  const [bidAmount, setBidAmount] =useState('0000');
 
   const handleAddBidding = (Car) => {
-    setBidding([...bidding, Car])
-    setBidAmount(bidAmount+Car.currentBidPrice)
+    setBidding([...bidding, Car]);
+    const bidAmountToInt = parseInt(bidAmount);
+    const add = bidAmountToInt+Car.currentBidPrice;
+    const newBid=add.toString();
+    setBidAmount(newBid);
   };
 
 
@@ -34,9 +37,9 @@ function App() {
           <div className='bg-white rounded-3xl'>
             <h1 className='text-3xl font-medium'>Bidding Cars</h1>
 
-            {bidAmount == 0 ?  <div><p>Not Bidding yet</p></div> : (<div className='px-5 py-5'>{
+            {bidAmount == 0 ?  <div><p className='font-medium text-lg'>Not Bidding yet</p></div> : (<div className='px-5 py-5'>{
               bidding.map((bidCars) =>
-                <table >
+                <table key={bidCars.id}>
                   <tbody >
                     <tr >
                       <td className='w-[45%]'>
@@ -64,7 +67,7 @@ function App() {
             }</div>)}
             
 
-            <h3>Total bids Amount: {bidAmount}  </h3>
+            <h3>Total bids Amount: ${bidAmount}  </h3>
           </div>
 
         </div>

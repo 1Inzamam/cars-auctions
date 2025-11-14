@@ -15,14 +15,14 @@ const Auctions = () => {
             <p>Discover and bid on cars</p>
             <div className='flex gap-4'>
                 <div className=' w-[60%]'>
-                    <table className="table">
+                    <table className="table w-full">
                         <thead className=''>
                             <tr>
                                 
-                                <th className=''>Items</th>
-                                <th>Current Bid</th>
-                                <th>Time Left</th>
-                                <th> Bid Now</th>
+                                <th className='w-[45%]'>Items</th>
+                                <th className='w-[20%] text-center'>Current Bid</th>
+                                <th className='w-[20%] text-center'>Time Left</th>
+                                <th className='w-[15%] text-center'> Bid Now</th>
                             </tr>
                         </thead>
                         <tbody>

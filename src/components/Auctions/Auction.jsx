@@ -1,18 +1,15 @@
 import React from 'react';
+import { BiDollar } from "react-icons/bi";
 
 const Auction = ({items}) => {
     const {image,title, description, currentBidPrice, timeLeft} = items;
     return (
-        <div className='flex justify-between w-[60%] items-start'>
-           <div className="overflow-x-auto">
+       
   
-    {/* head */}
-    
-  
-      {/* row 1 */}
+   
       <tr>
        
-        <td className=''>
+        <td className='w-[45%]'>
           <div className="flex items-center gap-3">
             <div className="avatar">
               <div className="mask mask-squircle h-12 w-12">
@@ -27,22 +24,19 @@ const Auction = ({items}) => {
             </div>
           </div>
         </td>
-        <td>
+        <td className='w-[20%] text-center' >
           {currentBidPrice}
           <br />
           
         </td>
-        <td>{timeLeft}</td>
-        <th>
-          <button className="btn btn-ghost btn-xs">Bid</button>
-        </th>
+        <td className='w-[20%] text-center'>{timeLeft}</td>
+        <td className='w-[15%] text-center'>
+          <button className="btn btn-ghost btn-xs"><BiDollar className='text-lg' /></button>
+        </td>
       </tr>
      
     
-    {/* foot */}
-    
-  </div>
-        </div>
+  
     );
 };
 

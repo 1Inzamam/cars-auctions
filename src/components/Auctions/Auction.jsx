@@ -1,7 +1,7 @@
 import React from 'react';
 import { BiDollar } from "react-icons/bi";
 
-const Auction = ({items}) => {
+const Auction = ({items,handleAddBidding}) => {
     const {image,title, description, currentBidPrice, timeLeft} = items;
     return (
       <tr>
@@ -27,7 +27,11 @@ const Auction = ({items}) => {
         </td>
         <td className='w-[20%] text-center'>{timeLeft}</td>
         <td className='w-[15%] text-center'>
-          <button className="btn btn-ghost btn-xs"><BiDollar className='text-lg' /></button>
+          <button 
+          className="btn btn-ghost btn-xs" 
+          onClick={()=>handleAddBidding(items)}>
+            <BiDollar className='text-lg' />
+          </button>
         </td>
       </tr>
     );

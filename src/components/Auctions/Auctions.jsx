@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Auction from './Auction';
-const Auctions = () => {
+const Auctions = ({ handleAddBidding }) => {
     const [cars, setCars] = useState([]);
 
     useEffect(() => {
@@ -11,11 +11,10 @@ const Auctions = () => {
 
     return (
         <div className='w-full max-w-full mx-auto px-2 md:px-6 lg:px-8 xl:px-16 py-7 bg-blue-100'>
-            <h1 className='text-2xl'>Auctions</h1>
-            <p>Discover and bid on cars</p>
+            
             <div className='flex gap-4'>
-                <div className=' w-[60%]'>
-                    <table className="table w-full">
+                <div className=' '>
+                    <table className="table w-full bg-white rounded-3xl">
                         <thead className=''>
                             <tr>
                                 <th className='w-[45%]'>Items</th>
@@ -25,17 +24,15 @@ const Auctions = () => {
                             </tr>
                         </thead>
                         <tbody>
-                {
-                    cars.map((items) => (
-                        <Auction key={items.id} items={items}></Auction>
-                    ))
-                }
-            </tbody>
+                            {
+                                cars.map((items) => (
+                                    <Auction key={items.id} items={items} handleAddBidding={handleAddBidding}></Auction>
+                                ))
+                            }
+                        </tbody>
                     </table>
                 </div>
-                <div className='text-center w-[35%]'>
-                    <h1>Favorite Items</h1>
-                </div>
+                
             </div>
         </div>
     );

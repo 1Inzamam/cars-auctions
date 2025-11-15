@@ -2,22 +2,42 @@ import { useState } from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
 import Auctions from './components/Auctions/Auctions'
+import Footer from './components/Footer/Footer'
 import './App.css'
-
-
 
 function App() {
   const [bidding, setBidding] = useState([]);
   const [bidAmount, setBidAmount] = useState('0000');
 
   const handleAddBidding = (Car) => {
+
+    const alreadyExists = bidding.some((bid) => bid.id === Car.id);
+  
+  if (alreadyExists) {
+   
+    return; // Exit the function early
+  }
+
     setBidding([...bidding, Car]);
     const bidAmountToInt = parseInt(bidAmount);
     const add = bidAmountToInt + Car.currentBidPrice;
     const newBid = add.toString();
     setBidAmount(newBid);
+
   };
 
+  const handleRemoveAmount = (car) => {
+    const bidAmountToInt = parseInt(bidAmount);
+    const sub = bidAmountToInt - car;
+    const newbid = sub.toString();
+    setBidAmount(newbid);
+
+  }
+
+  const handleRemoveBidding = (id) => {
+    const remainingBidding = bidding.filter((bid) => bid.id !== id)
+    setBidding(remainingBidding)
+  }
 
   return (
     <>
@@ -59,14 +79,12 @@ function App() {
                             <div className="font-bold">{bidCars.title}</div>
                             <div className="text-sm opacity-50">{bidCars.description}</div>
                           </div>
-                          <button>X</button>
+                          <button onClick={() => { handleRemoveBidding(bidCars.id), handleRemoveAmount(bidCars.currentBidPrice) }}>X</button>
                         </div>
                       </td>
                     </tr>
                   </tbody>
-
                 </table>
-
               )
             }</div>)}
 
@@ -80,7 +98,7 @@ function App() {
         </div>
 
       </div>
-
+            <Footer></Footer>
     </>
   )
 }

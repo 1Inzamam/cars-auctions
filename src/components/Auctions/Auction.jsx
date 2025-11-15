@@ -29,7 +29,7 @@ const Auction = ({items,handleAddBidding}) => {
         <td className='lg:w-[15%] text-center'>
           <button 
           className="btn btn-ghost btn-xs" 
-          onClick={()=>handleAddBidding(items)}>
+          onClick={()=>handleAddBidding(items) }>
             <BiDollar className='text-lg' />
           </button>
         </td>

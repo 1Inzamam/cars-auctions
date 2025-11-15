@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Auction from './Auction';
-const Auctions = ({ handleAddBidding }) => {
+const Auctions = ({ handleAddBidding}) => {
     const [cars, setCars] = useState([]);
 
     useEffect(() => {
@@ -24,7 +24,7 @@ const Auctions = ({ handleAddBidding }) => {
                         <tbody>
                             {
                                 cars.map((items) => (
-                                    <Auction key={items.id} items={items} handleAddBidding={handleAddBidding}></Auction>
+                                    <Auction key={items.id} items={items} handleAddBidding={handleAddBidding} ></Auction>
                                 ))
                             }
                         </tbody>

@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className=' w-full max-w-full mx-auto px-2 md:px-6 lg:px-8 xl:px-16 py-3'>
             <div className="md:navbar bg-base-100 flex-col md:flex-row text-center md:text-start">
                 <div className="md:navbar-start">
-                    <a className=" text-xl text-[#00a2ff]">Auction<span className='text-[#cc00ff]'>Zone</span></a>
+                    <a className=" text-3xl text-[#00a2ff]">Auction<span className='text-gray-400 font-bold'>Zone</span></a>
 
                 </div>
                 <div className="md:navbar-center flex-col md:flex-row gap-2">
